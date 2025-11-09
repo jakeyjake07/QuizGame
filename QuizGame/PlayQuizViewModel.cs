@@ -33,7 +33,7 @@ namespace QuizGame
                 {
                     percent = (int)((double)CorrectAnswers / TotalAnswered * 100);
                 }
-                return $"Score: {percent}%";
+                return $"Score: {CorrectAnswers}/{TotalAnswered} {percent}%";
             }
 
         }
